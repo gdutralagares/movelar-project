@@ -24,3 +24,10 @@ document.querySelector("#user-icon").onclick = () => {
   navbar.classList.remove("active");
   menu.classList.remove("move");
 };
+
+//header background shadow
+let header = document.querySelector("header");
+
+window.addEventListener("scroll", () => {
+  header.classList.toggle("shadow", window.scrollY > 0);
+});
