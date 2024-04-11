@@ -333,7 +333,7 @@ transition: 0.3s ease;
   transform: translateY(-2px);
   transition: 0.3s;
 }
-.popular-content{
+.popular-content, .products-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
   gap: 2rem;
