@@ -350,10 +350,7 @@ transition: 0.3s ease;
 .box img{
   border-radius: 0.5rem;
 }
-.box:hover{
-  transition: 0.5s all linear;
-  transform: translateY(-10px);
-}
+
 .box-text{
   display: flex;
   align-items: center;
@@ -379,6 +376,8 @@ transition: 0.3s ease;
 }
 .box-text .bx:hover{
   background: var(--main-color);
+  transition: 0.3s all linear;
+  transform: translateY(-5px);
 }
 .about{
   display: grid;
@@ -424,4 +423,21 @@ transition: 0.3s ease;
   margin-left: 1rem;
   color: var(--text-color);
   font-size: 0.9rem;
+}
+.products-content .box-text{
+  background: var(--text-color);
+}
+.products-content .box-text h3{
+  color: var(--bg-color);
+}
+.products-content .box-text span{
+  color: var(--bg-color);
+}
+.products-content .box-text .bx{
+  color: var(--text-color);
+  background: var(--bg-color);
+}
+.products-content .box-text .bx:hover{
+  background: var(--main-color);
+  color: var(--bg-color);
 }
