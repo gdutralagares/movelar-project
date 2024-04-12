@@ -25,9 +25,21 @@ document.querySelector("#user-icon").onclick = () => {
   menu.classList.remove("move");
 };
 
+//removed menu on click
+window.onscroll = () => {
+  navbar.classList.remove("active");
+  menu.classList.remove("move");
+}
 //header background shadow
 let header = document.querySelector("header");
 
 window.addEventListener("scroll", () => {
   header.classList.toggle("shadow", window.scrollY > 0);
+});
+
+//scroll top
+let scrolltop = document.querySelector(".scroll-top");
+
+window.addEventListener("scroll", () => {
+  scrolltop.classList.toggle("active", window.scrollY > 0);
 });
