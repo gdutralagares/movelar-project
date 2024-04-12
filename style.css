@@ -655,8 +655,10 @@ header.shadow {
     width: 350px;
 }
 .home-img::after {
-  height: 200px;
-  width: 420px;
+  display: block;
+  height: 120px;
+  width: 320px;
+  bottom: 60px;
   left: 5px;
 }
 .home-text p {
