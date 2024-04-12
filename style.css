@@ -119,7 +119,7 @@ header.shadow {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.74);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(8.5px);
   z-index: 106;
   display: none;
   justify-content: center;
@@ -168,7 +168,7 @@ header.shadow {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.74);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(8.5px);
   z-index: 106;
   display: none;
   justify-content: center;
@@ -235,7 +235,7 @@ header.shadow {
   width: 100%;
   height: 100vh;
   background: rgba(255, 255, 255, 0.74);
-  backdrop-filter: blur(2.5px);
+  backdrop-filter: blur(8.5px);
   z-index: 106;
   display: none;
   justify-content: center;
