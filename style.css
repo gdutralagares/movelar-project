@@ -641,6 +641,10 @@ header.shadow {
       margin: 0 auto;
       width: 90%;
     }
+    .newsletter-content form {
+      grid-template-columns: 1fr;
+      row-gap: 1rem;
+    }
   }
 @media (max-width: 530px) {
   .home{
@@ -664,9 +668,5 @@ header.shadow {
 }
 .features span {
   font-size: 1.2rem;
-}
-.newsletter-content form {
-  grid-template-columns: 1fr;
-  row-gap: 1rem;
 }
 }
